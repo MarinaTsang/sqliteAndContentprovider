@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.example.zeng.contentresolver"
+        applicationId "com.example.zeng.sevicetest"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
@@ -25,10 +25,6 @@ android {
 
 }
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
@@ -41,7 +37,4 @@ dependencies {
     implementation 'com.jakewharton:butterknife:8.8.1'
 
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-
-    implementation 'com.appsflyer:af-android-sdk:4+@aar'
-    implementation 'com.android.installreferrer:installreferrer:1.0'
 }

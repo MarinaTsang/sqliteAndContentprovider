@@ -1,1 +1,1 @@
-include ':app', ':contentresolver'
+include ':app', ':contentresolver', ':database', ':sevicetest'
